@@ -8,7 +8,7 @@
 	},
 	"devDependencies": {
 		"@mono/workshop": "workspace:^",
-		"@pandacss/dev": "^0.6.0",
+		"@pandacss/dev": "^0.7.0",
 		"@turbo/gen": "^1.9.7",
 		"@vitejs/plugin-react-swc": "^3.3.2",
 		"prettier": "^2.5.1",

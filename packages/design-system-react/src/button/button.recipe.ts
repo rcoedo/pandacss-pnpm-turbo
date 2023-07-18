@@ -9,8 +9,8 @@ export const button: ReturnType<typeof defineRecipe> = defineRecipe({
 	},
 	variants: {
 		visual: {
-			funky: { bg: "red.300", color: "blue.800" },
-			edgy: { border: "1px solid {colors.red.500}" },
+			funky: { bg: "red.500", color: "blue.800" },
+			edgy: { bg: "blue.500", color: "black.800" },
 		},
 		size: {
 			sm: { padding: "4", fontSize: "12px" },
