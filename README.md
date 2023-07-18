@@ -16,8 +16,8 @@ The repo has three packages:
 1. Install the dependencies
 2. Run `pnpm dev` to start the `front` and `workshop` applications.
 3. Open [workshop](http://localhost:6006/) and [front](http://localhost:5173/) in your browser.
-4. Edit `packages/design-system-react/src/button/button.recipe.ts`. Change the `funky` visual from `red.300` to
-   `blue.300`. Notice that neither applications will update.
-6. Run `touch ./apps/front/panda.config.ts`. Notice that `front` recipes were properly reloaded. You can also check the
-   logs and you'll see a message regarding the new configuration.
-7. Run `touch ./apps/workshop/panda.config.ts`. Notice that `workshop` recipes were reloaded. The logs will show the config reload message, but the configuration is outdated. In the browser, `workshop` still shows the old color.
+4. Notice that the `Edgy` story is missing its styles.
+5. Edit `packages/design-system-react/src/button/button.stories.ts`, comment out the Edgy args story, uncomment the Edgy
+   render story.
+6. Restart the servers.
+7. Notice that `Edgy` is now correctly styled.

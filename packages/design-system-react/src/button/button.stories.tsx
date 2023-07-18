@@ -17,22 +17,33 @@ const meta: Meta<typeof Button> = {
 export default meta;
 type Story = StoryObj<typeof Button>;
 
-export const Login: Story = {
+export const Funky: Story = {
 	args: {
-		children: "log in",
+		visual: "funky",
+		shape: "circle",
+		size: "sm",
+		children: "funky button",
 	},
 };
 
-export const Logout: Story = {
+export const Edgy: Story = {
 	args: {
 		visual: "edgy",
 		shape: "square",
 		size: "sm",
-		children: "log out",
+		children: "edgy button",
 	},
 };
 
-export const RenderStory: Story = {
+// export const Edgy: Story = {
+// 	render: () => (
+// 		<Button shape="square" visual="edgy" size="sm">
+// 			edgy button
+// 		</Button>
+// 	),
+// };
+
+export const FunkyRenderStory: Story = {
 	render: () => (
 		<Button shape="square" visual="funky" size="lg">
 			I'm a button!
